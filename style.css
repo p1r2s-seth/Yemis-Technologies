@@ -29,6 +29,9 @@ background: linear-gradient(115deg, rgba(1,9,34,1) 63%, rgba(128,128,215,1) 100%
   background: rgb(128,128,215);
   background: linear-gradient(115deg, rgba(128,128,215,1) 0%, rgba(107,178,255,1) 100%);
 }
+::selection {
+   background: rgb(128,128,215);
+}
 
 a {
   text-decoration: none;
@@ -41,6 +44,7 @@ a {
  .mb_40{
   margin-bottom: 40px;
  }
+
 
  .mt_10rem{
   margin-top: 10rem;
@@ -534,6 +538,7 @@ background: linear-gradient(86deg, rgba(1,9,34,1) 72%, rgba(128,128,215,1) 100%)
       color: #fff;
       font-size: 3rem;
       text-transform: capitalize;
+      text-align: center;
   }
 
   .process p{
@@ -914,6 +919,14 @@ background: linear-gradient(115deg, rgba(128,128,215,1) 0%, rgba(107,178,255,1) 
     line-height: 70px;
   }
 
+  .mb_process{
+    margin-bottom: 7%;
+  }
+
+  .mt_80{
+    margin-top: 30px !important;
+  }
+
 }
 
 @media only screen and (max-width: 768px) and (min-width: 600px){
@@ -935,6 +948,14 @@ background: linear-gradient(115deg, rgba(128,128,215,1) 0%, rgba(107,178,255,1) 
   .sec4_img{
     max-width: 60%;
     margin-left: 20%;
+  }
+
+  .mb_process{
+    margin-bottom: 7%;
+  }
+
+  .mt_80{
+    margin-top: 30px !important;
   }
 
 }
